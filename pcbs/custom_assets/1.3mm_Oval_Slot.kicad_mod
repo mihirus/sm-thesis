@@ -1,0 +1,31 @@
+(footprint "1.3mm_Oval_Slot" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp dfac4a49-d218-41e4-8788-47cf638d9db6)
+  )
+  (fp_text value "2.2mm_Oval_Slot" (at 0 1 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 63fdc20e-fa87-4476-882e-6cd423584742)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp e9b12d1a-ea0b-4fa8-985f-e1124c1cf942)
+  )
+  (fp_line (start -3.04056 -1.534925) (end 1.555634 3.061269)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e107ec9a-7e33-4e7f-b0b8-f4b8b7ca5346))
+  (fp_line (start -1.484925 -3.09056) (end 3.111269 1.505634)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 17260337-202b-466a-8cfe-d67c6bd025ac))
+  (fp_arc (start -3.040559 -1.534926) (mid -3.076717 -3.126717) (end -1.484926 -3.090559)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 011ecd5e-7255-469b-b393-c8a171d7aef4))
+  (fp_arc (start 3.111268 1.505635) (mid 3.076717 3.026717) (end 1.555635 3.061268)
+    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 1b8602e5-102c-4e59-8eb0-1b8606dd39c7))
+  (group "" (id 88802b1d-0c4c-4cce-b5c0-de36ed4ecea7)
+    (members
+      011ecd5e-7255-469b-b393-c8a171d7aef4
+      17260337-202b-466a-8cfe-d67c6bd025ac
+      1b8602e5-102c-4e59-8eb0-1b8606dd39c7
+      e107ec9a-7e33-4e7f-b0b8-f4b8b7ca5346
+    )
+  )
+)
